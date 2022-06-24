@@ -22,6 +22,8 @@
 - Devops
   - Circleci
 - NPM
+- Build Tool
+  - esbuild
 
 ## Learning
 - Load js dynamically

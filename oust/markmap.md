@@ -21,6 +21,8 @@
   - reduce
 - Node
   - file
+- Github
+- Git
 
 ## Learning
 - How to deal with error cases via Jest
@@ -29,3 +31,5 @@
 - Use cheerio to scrape web page(The api looks like jQuery)
 - Use Object(typeMap) to enhance conditional logic
 - Find out api of cheerio via debugging nodejs(inspect)
+- CI intergration via github action
+- The difference between merge and rebase

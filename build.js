@@ -21,5 +21,11 @@ Promise.all(filesPromise).then((data) => {
     });
   });
 
-  console.log(myLearning);
+  fs.writeFile(__dirname + '/markmap.md', myLearning, err => {
+    if (err) {
+      console.error(err);
+    }
+
+    console.log('updated successfully');
+  });
 })

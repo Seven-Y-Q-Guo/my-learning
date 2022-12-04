@@ -13,7 +13,37 @@
 ##### 心得
 ###### 如果filter的是对象，对其操作也会影响原数组，map也一样
 #### [some](https://www.bilibili.com/video/BV1q14y1n73A/)
+##### 心得
+###### 初始值为false，当有一个为true时，设置成true并break这个loop，然后return
+######
+```js
+let res = false;
+
+for (...) {
+  if (...) {
+    res = true;
+    break;
+  }
+}
+
+return res;
+```
 #### [every](https://www.bilibili.com/video/BV1QP411u7mf/)
+##### 心得
+###### 初始值为true，当有一个为false时，设置成false并break这个loop，然后return
+######
+```js
+let res = true;
+
+for (...) {
+  if (...) {
+    res = false;
+    break;
+  }
+}
+
+return res;
+```
 
 ### chrome extension
 #### [chrome插件开发Marker笔](https://www.bilibili.com/video/BV1b8411j7KJ/)

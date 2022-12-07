@@ -63,7 +63,14 @@ return res;
 ## 逆向
 ### 前端
 #### playcode
-##### [在线编辑器原理](https://www.bilibili.com/video/BV1Eg411p7eF/)
+##### [在线编辑器原理](https://www.bilibili.com/video/BV1uD4y1e7iS/)
+###### 心得
+- 快速debug技巧：从渲染地方break on subtree入手
+- document.open 和 document.write 的使用
+- 在iframe实现实时时钟
+- postmessage的使用
+- 动态注入css、js和html
+
 ##### [去除广告限制](https://www.bilibili.com/video/BV1N3411v7Cy/)
 #### [招聘网站将多页内容全部显示](https://www.bilibili.com/video/BV1EP4y1R7UG/)
 ##### 心得

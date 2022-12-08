@@ -60,6 +60,13 @@ return res;
 ###### for循环实现
 ###### reduce实现
 
+## css
+### [网站变灰](https://www.bilibili.com/video/BV1Ae411K7Jk/)
+#### 心得
+##### filter: grayscale(100%)
+##### 百度logo用专门的灰色替换
+
+
 ## 逆向
 ### 前端
 #### playcode
